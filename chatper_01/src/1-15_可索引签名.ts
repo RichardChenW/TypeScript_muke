@@ -1,7 +1,7 @@
 interface Person {
 	name: string;
 	age: number;
-	[x:string]: number;
+	[x:string]: any;
 }
 
 const p1: Person = {
